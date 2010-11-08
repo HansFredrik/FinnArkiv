@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block header %}
+<h2>{{ make }} {{ model }}</h2>
+<form action="/model?make={{ make }}&model={{ model }}" method="post">
+	<span>Pris >= <input type="text" name="pricegte" /></span>
+	<span>Pris <= <input type="text" name="pricelte" /></span>
+	<span>Reg. Nummer: <input type="text" name="regno" /></span>
+	<br/>
+	<input type="submit" value="S&oslash;k" />
+</form>
+{% endblock %}
+
+{% block content %}
+{% for classified in classifieds %}
+<span><a href="classified?classifiedid={{ classified.finnid }}">{{ classified.title }}</a></span><br/>
+{% endfor %}
+{% endblock %}
+    

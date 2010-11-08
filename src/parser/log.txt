@@ -1,0 +1,40 @@
+Starting indexing at ID: 24000000 going to 23999990
+Starting at time: Thu, 23 Sep 2010 13:08:34 +0000
+Saving at time: Thu, 23 Sep 2010 13:08:35 +0000 counter: 0 / 0
+Finished at time: Thu, 23 Sep 2010 13:08:36 +0000 counter: 1 / 9 Last ID: 23999991
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:13:59 +0000
+Finished at time: Fri, 24 Sep 2010 15:14:00 +0000 counter: 1 / 0 Last ID: 23945820
+ID:23945820 ERROR: saving
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:14:48 +0000
+Finished at time: Fri, 24 Sep 2010 15:14:48 +0000 counter: 1 / 0 Last ID: 23945820
+ID:23945820 ERROR: saving
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:16:10 +0000
+Finished at time: Fri, 24 Sep 2010 15:16:10 +0000 counter: 1 / 0 Last ID: 23945820
+ID:23945820 ERROR: saving
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:18:06 +0000
+Finished at time: Fri, 24 Sep 2010 15:18:07 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:18:17 +0000
+Finished at time: Fri, 24 Sep 2010 15:18:17 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:19:34 +0000
+Finished at time: Fri, 24 Sep 2010 15:19:34 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:21:21 +0000
+Finished at time: Fri, 24 Sep 2010 15:21:22 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:21:54 +0000
+Finished at time: Fri, 24 Sep 2010 15:21:54 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 15:23:12 +0000
+Finished at time: Fri, 24 Sep 2010 15:23:13 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 23:14:04 +0000
+Finished at time: Fri, 24 Sep 2010 23:14:05 +0000 counter: 1 / 0 Last ID: 23945820
+Starting indexing at ID: 23945820 going to 23945819
+Starting at time: Fri, 24 Sep 2010 23:15:56 +0000
+Finished at time: Fri, 24 Sep 2010 23:15:56 +0000 counter: 1 / 0 Last ID: 23945820

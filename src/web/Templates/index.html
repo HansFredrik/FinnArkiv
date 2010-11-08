@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block header %}
+<div class="form">
+    <form name="regnosearch" action="search" method="post">
+        Reg.Nr.: <input class="textfield-big" name="regno" type="text">
+        <input value="S&oslash;k" type="submit">
+    </form>
+</div>
+{% endblock %}
+{% block content %}
+<div id="makemodellist">
+    <div class="makemodelcolumn">
+        <ul>
+    		{% for make in makes|slice:":16" %}
+            <li>
+                <a href="make?make={{ make.make }}">{{ make.make }} ({{ make.count }})</a>
+            </li>
+        	{% endfor %}
+        </ul>
+    </div>
+    <div class="makemodelcolumn">
+        <ul>
+            {% for make in makes|slice:"16:32" %}
+            <li>
+                <a href="make?make={{ make.make }}">{{ make.make }} ({{ make.count }})</a>
+            </li>
+        	{% endfor %}
+        </ul>
+    </div>
+    <div class="makemodelcolumn">
+        <ul>
+            {% for make in makes|slice:"32:48" %}
+            <li>
+                <a href="make?make={{ make.make }}">{{ make.make }} ({{ make.count }})</a>
+            </li>
+        	{% endfor %}
+        </ul>
+    </div>
+    <div class="makemodelcolumn">
+        <ul>
+            {% for make in makes|slice:"48:64" %}
+            <li>
+                <a href="make?make={{ make.make }}">{{ make.make }} ({{ make.count }})</a>
+            </li>
+        	{% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

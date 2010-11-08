@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block header %}
+<div id="navigation_path">
+	<a href=".">FinnArkiv</a>
+    <span> / </span><a href="make?make={{ classified.make }}" alt="{{ classified.make }}" title="{{ classified.make }}">{{ classified.make }}</a>
+    <span> / </span><a href="model?make={{ classified.make }}&model={{ classified.model }}" alt="{{ classified.model }}" title="{{ classified.model }}">{{ classified.model }}</a>
+</div>
+<h2>{{ classified.title }}</h2>
+<div class="offerlink">
+	<a href="http://www.finn.no/finn/car/used/object?finnkode={{ classified.finnid }}" >Finn ID: {{ classified.finnid }}</a>
+</div>
+{% endblock %}
+{% block content %}
+<div id="price">
+	<h2>Annonsestatus: </h2>
+	{{ classified.status }}
+</div>
+
+<div id="information">
+    <h2>Informasjon</h2>
+    <table class="left">
+        <tbody>
+            <tr><th>Totalpris</th><td class="price large">{{ classified.price }},-</td></tr>
+            <tr><th>Salgsform</th><td class="car-salesform">{{ classified.carsalesform }}</td></tr>
+            <tr><th>Bilen st&aring;r i</th><td class="car-location">{{ classified.carlocation }}</td></tr>
+            <tr><th>Kilometer</th><td class="mileage">{{ classified.mileage }}</td></tr>
+            <tr><th>&Aring;rsmodell</th><td class="year-model">{{ classified.yearmodel }}</td></tr>
+            <tr><th>Karosseri</th><td class="body-type">{{ classified.bodytype }}</td></tr>
+            <tr><th>Avgiftsklasse</th><td class="registration-class">{{ classified.registration }}</td></tr>
+            <tr><th>1. gang reg.</th><td class="registration-first">{{ classified.registrationfirst }}</td></tr>
+            <tr><th>Sylindervolum</th><td class="engine-volume">{{ classified.enginevolume }}</td></tr>
+            <tr><th>Effekt</th><td class="engine-effect">{{ classified.engineeffect }}</td></tr>
+            <tr><th>Drivstoff</th><td class="engine-fuel">{{ classified.enginefuel }}</td></tr>
+            <tr><th>Girkasse</th><td class="transmission">{{ classified.transmission }}</td></tr>
+    	</tbody>
+    </table>
+    <table class="right">
+        <tbody>
+        	<tr><th>Hjuldrift</th><td class="wheel-drive">{{ classified.wheeldrive }}</td></tr>
+            <tr><th>Farge</th><td class="exteriour-colour-main">{{ classified.colourmain }}</td></tr>
+            <tr><th>Farge beskr</th><td class="exteriour-colour">{{ classified.exteriourcolour }}</td></tr>
+            <tr><th>Interi&oslash;rfarge</th><td class="interiour-colour">{{ classified.interiourcolour }}</td></tr>
+            <tr><th>Antall seter</th><td class="no-of-seats">{{ classified.noofseats }}</td></tr>
+            <tr><th>Antall d&oslash;rer</th><td class="no-of-doors">{{ classified.noofdoors }}</td></tr>
+            <tr><th>Antall eiere</th><td class="no-of-owners">{{ classified.noofowners }}</td></tr>
+            <tr><th>Skiltnummer</th><td class="no-of-owners">{{ classified.regno }}</td></tr>
+    	</tbody>
+    </table>
+</div>
+	
+<div id="description">
+    <h2>Beskrivelse</h2>
+        {{ classified.description }}
+</div>
+<div id="name">
+    {{ classified.seller }}
+</div>
+<div id="addressinfo">
+    <span class="postCode">{{ classified.postalcode }}</span>
+    <span class="postalName">{{ classified.postalname }}</span>
+</div>
+{% endblock %}
