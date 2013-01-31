@@ -1,4 +1,6 @@
-FinnAkriv consists of two parts. The first is a web crawler that crawls through classifies on Finn.no (Norways biggest website for classifieds). The crawler parses all the car classifieds it find and stores them in an SQL database.
+FinnAkriv consists of two parts. The first is a web crawler that crawls through classifieds on Finn.no (Norways biggest website for classifieds). The crawler parses all the car classifieds it finds and stores them in an SQL database.
 
-The second part is a website that presents all the classifieds stored in the DB. The goal of the project was to store all the old classifieds that are still accessible on Finn.no if you have the URL, they keep the URLs alive, but remove the classifieds from the search/index on the site.
+The second part is a website that presents all the classifieds stored in the DB. The goal of the project was to store all the old classifieds that are still accessible on Finn.no. 
+
+Classifieds on Finn.no are still accessible if you have the URL, even though they remove the classifieds from the search/index on the site.
 
